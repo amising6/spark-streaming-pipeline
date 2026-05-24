@@ -12,6 +12,14 @@ Enterprise-style PySpark streaming pipeline demonstrating scalable ingestion and
 ## Architecture
 Event Stream → Spark Processing → Transformation → Analytics Layer
 
+## Example Workflow
+
+1. Generate synthetic streaming events
+2. Publish events into Kafka topics
+3. Process streams using PySpark Structured Streaming
+4. Apply transformations and aggregations
+5. Persist processed output into Delta Lake
+
 ## Key Concepts
 - distributed processing
 - partition optimization
