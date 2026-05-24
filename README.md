@@ -1,2 +1,19 @@
-# Real-Time Streaming Pipeline for Customer Analytics
-Simulates a production-grade streaming ETL pipeline with Spark Structured Streaming, Kafka, and BigQuery/Hudi.
+# Spark Streaming Pipeline
+
+Enterprise-style PySpark streaming pipeline demonstrating scalable ingestion and transformation patterns for distributed event processing workloads.
+
+## Tech Stack
+- PySpark
+- Kafka
+- Python
+- Delta Lake
+- Databricks
+
+## Architecture
+Event Stream → Spark Processing → Transformation → Analytics Layer
+
+## Key Concepts
+- distributed processing
+- partition optimization
+- fault tolerance
+- scalable ETL patterns
